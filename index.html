@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/css/style.css">
+    <title>Zeichenkettentrennungsapp</title>
+  </head>
+  <body>
+    <form action="" onsubmit="return false">
+      <h1>Zeichenkettentrennungsapp</h1>
+      <label for="separated-string"><b>Zu trennende Zeichenkette:</b></label>
+      <input type="text" name="text" id="separated-string">
+      <label for="separation-position"><b>Zeichenkette für die Trennungsposition:</b></label>
+      <input type="text" name="text" id="separation-position">
+      <div class="radio-wrapper">
+        <input type="radio" name="divide" id="separate-before" checked>
+        <label for="separate-before">davor trennen</label>
+      </div>
+      <div class="radio-wrapper">
+        <input type="radio" name="divide" id="separate-after">
+        <label for="separate-after">danach trennen</label>
+      </div>
+      <input type="submit" value="Trennen" onclick="separate()">
+      <h2>Ausgabe</h2>
+      <div class="result">
+        <div class="front">
+          <h3>Vorderer Teil</h3>
+          <div id="output-front"></div>
+        </div>
+        <div class="back">
+          <h3>Hinterer Teil</h3>
+          <div id="output-back"></div>
+        </div>
+      </div>
+    </form>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

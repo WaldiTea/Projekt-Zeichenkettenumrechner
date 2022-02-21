@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+form {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
+}
+
+form h1 {
+  margin: 2% 0;
+}
+
+form input[type="text"] {
+  width: 90%;
+  display: block;
+  margin: 1% 0 3% 0;
+}
+
+form .radio-wrapper {
+  margin: 2% 0;
+}
+
+form input[type="submit"] {
+  padding: 0.5em 1em;
+  margin: 2% 0 5% 0;
+}
+
+form .result {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 2% 0;
+}
+/*# sourceMappingURL=style.css.map */
